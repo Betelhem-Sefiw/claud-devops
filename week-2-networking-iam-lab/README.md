@@ -1,6 +1,7 @@
 # Week 2 Networking & IAM Lab
 
 **Name:** Betelhem Sefiw
+**Date Completed:** October 27, 2026
 
 ## Task 1 — Identify Your Network Information
 - **Operating System:** Ubuntu Linux (WSL)
@@ -27,11 +28,15 @@ Each /26 subnet has \(2^6 = 64\) total addresses.
 - **IP Addresses returned:** `172.66.147.243`, `104.20.23.154`, `2606:4700:10::ac42:93f3`, `2606:4700:10::6814:179a`
 - **What DNS does:** DNS translates human-readable domain names into machine-readable IP addresses so browsers can find the correct web server.
 
+![DNS Lookup](./evidence/dns-lookup.png)
+
 ## Task 4 — Inspect an HTTPS Website
 - **Website loaded successfully?** Yes
 - **HTTP Status Code:** `HTTP/2 200`
 - **What HTTPS adds to HTTP:** HTTPS adds encryption via TLS, ensuring data is secure, private, and unaltered during transit, and verifies the server's identity.
 - **Why DNS alone doesn't guarantee a load:** DNS only finds the server's IP address. The connection can still fail due to a downed server, a blocked firewall, an expired TLS certificate, or an HTTP error.
+
+![HTTPS Response](./evidence/https-response.png)
 
 ## Task 5 — Interpret HTTP Status Codes
 
