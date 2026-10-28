@@ -1,0 +1,2 @@
+Week 1 - Cloud & DevOps Lab
+Learning Linux basics: directories, files, processes.
