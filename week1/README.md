@@ -23,25 +23,25 @@ This repository contains my Cloud & DevOps track labs.
 ### 📸 Screenshots Evidence
 
 #### 1. Workspace Directory Created
-![Task 1](week1/screenshots/01-mkdir-week1.png)
+![Task 1](screenshots/01-mkdir-week1.png)
 
 #### 2. notes.txt Created
-![Task 2](week1/screenshots/02-create-notes.png)
+![Task 2](screenshots/02-create-notes.png)
 
 #### 3. Text Added to notes.txt
-![Task 3](week1/screenshots/03-add-text.png)
+![Task 3](screenshots/03-add-text.png)
 
 #### 4. scripts/ Directory Created
-![Task 4](week1/screenshots/04-mkdir-scripts.png)
+![Task 4](screenshots/04-mkdir-scripts.png)
 
 #### 5. notes.txt Moved into scripts/
-![Task 5](week1/screenshots/05-move-notes.png)
+![Task 5](screenshots/05-move-notes.png)
 
 #### 6. notes.txt Found with `find`
-![Task 6](week1/screenshots/06-find-notes.png)
+![Task 6](screenshots/06-find-notes.png)
 
 #### 7. Running Process and PID
-![Task 7](week1/screenshots/07-process-pid.png)
+![Task 7](screenshots/07-process-pid.png)
 
 ### Key Commands Summary
 
