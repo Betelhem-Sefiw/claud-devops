@@ -1,21 +1,29 @@
-# Week 4: Cloud Infrastructure Setup
+# Amazon VPC Network Infrastructure
 
-**Status:** ✅ Complete
-
----
-
-## Part 1: VPC & Network Infrastructure
-- Created a custom Virtual Private Cloud (VPC) with CIDR `10.0.0.0/16`.
-- Set up a **Public Subnet** (for the Web Server) and two **Private Subnets** in different Availability Zones (for the Database).
-- Attached an **Internet Gateway** and configured Route Tables to route public traffic.
-- Associated the public route table with the `Public 1` subnet to allow internet access.
+**Name:** Bethelehem Sefiw
+**ID:** ETS 0285/17
+**Class:** Software Engineering
+**Year:** 3rd Year
 
 ---
 
-## Part 2: Amazon RDS Database
-- Created a **DB Subnet Group** linking the two private subnets.
-- Deployed a **MySQL 8.0** RDS instance (`myDB`) using `db.t3.micro`.
-- Disabled public access (set to "No") to keep the database isolated.
-- Configured **Security Groups**: Database (port 3306) only accepts traffic from the Web Server Security Group.
+## Overview
+This document outlines the design and configuration of the Amazon Virtual Private Cloud (VPC) and its associated networking components.
 
-**Result:** Secure AWS environment ready for backend connection.nano 
+## VPC Configuration
+- **VPC Name:** `My VPC`
+- **CIDR Block:** `10.0.0.0/16`
+
+## Subnet Setup
+- **Public Subnet:** `Public 1` (`10.0.1.0/24`) - Configured with auto-assign public IPv4 to host internet-facing resources like the Web Server.
+- **Private Subnets:** 
+  - `Private 1` (`10.0.2.0/24`) - Created in the first Availability Zone.
+  - `Private 2` (`10.0.3.0/24`) - Created in the second Availability Zone for high availability.
+
+## Internet Gateway & Routing
+- **Internet Gateway:** Created `My IG` and attached it to the VPC.
+- **Route Table:** Configured the public route table with a destination of `0.0.0.0/0` targeting `My IG`. Associated this route table with the `Public 1` subnet to allow external internet access.
+
+## Status
+- **VPC Setup:** Complete
+- **Network Architecture:** Isolated private subnets secured, with a public subnet ready for server deployment.
