@@ -1,6 +1,9 @@
 # Week 2 Networking & IAM Lab
 
-**Name:** Betelhem Sefiw
+**Name:** Bethelehem Sefiw
+**ID:** ETS 0285/17
+**Department:** Software Engineering
+**Year:** 3rd Year
 **Date Completed:** October 27, 2026
 
 ## Task 1 — Identify Your Network Information

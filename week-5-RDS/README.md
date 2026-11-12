@@ -2,7 +2,7 @@
 
 **Name:** Bethelehem Sefiw
 **ID:** ETS 0285/17
-**Class:** Software Engineering
+**Department:** Software Engineering
 **Year:** 3rd Year
 
 ---
